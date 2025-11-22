@@ -1,0 +1,136 @@
+body {
+  background: #222;
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+.main-bg {
+  background: #373737;
+  min-height: 100vh;
+  padding: 36px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  font-size: 16px;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+}
+
+.styled-table th, .styled-table td {
+  padding: 16px 12px;
+  font-size: 16px;
+}
+
+.styled-table th {
+  background: #fafafb;
+  color: #757575;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.styled-table td {
+  border-bottom: 1px solid #ECECEC;
+}
+.styled-table tr:last-child td {
+  border-bottom: none;
+}
+
+.styled-table a {
+  color: #6C3AFF;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.gender-pill {
+  display: inline-block;
+  min-width: 52px;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 2px 16px;
+}
+
+.gender-male {
+  background: #FFE2E7;
+  color: #F44336;
+  border-radius: 12px;
+}
+
+.gender-female {
+  background: #E0F3FF;
+  color: #1976D2;
+  border-radius: 12px;
+}
+
+/* Edit Icon Button */
+.edit-btn-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+}
+
+.edit-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1.5px solid #CBC6DB; /* Soft border as per screenshot */
+  border-radius: 6px;
+  background: #fff;
+  color: #6C3AFF; /* Purple */
+  transition: box-shadow 0.18s, background 0.18s;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.edit-icon-btn:hover, .edit-icon-btn:focus {
+  background: #F9F4FF;
+  box-shadow: 0 2px 8px rgba(108,58,255,0.08);
+  border-color: #6C3AFF;
+}
+
+.table-row:hover {
+  background: #F6F6FA;
+}
+
+/* Add font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+.country-edit-dropdown {
+  min-width: 496px !important;
+  width: 496px !important;
+  max-width: 496px !important;
+  height: 156px !important;
+  max-height: 156px !important;
+  border-radius: 4px !important;
+  border: 1px solid #E7E6EB !important;
+  background: #fff !important;
+  padding: 4px !important;
+  overflow-y: auto !important;
+  box-sizing: border-box !important;
+}
+.modal-header {
+  width: 560px;
+  height: 56px;
+  background: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom: 1px solid #F3F3F5;
+  padding: 16px 16px 16px 32px;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+  box-sizing: border-box;
+  gap: 4px;
+}
